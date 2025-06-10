@@ -11,9 +11,11 @@ import java.util.Scanner;
  * Modifier: HamnaMahmoodPeracha
  * Student Number: 991799146
  * Date Modified: 02/06/2025
+ * hnajNJ
  */
 public class CardTrick {
     public static void main(String[] args) {
+        
         Card[] magicHand = new Card[7];
         String[] suits = {"Hearts", "Diamonds", "Spades", "Clubs"};
 
@@ -27,8 +29,12 @@ public class CardTrick {
 
         // Lucky card (example, can be customized)
         Card luckyCard = new Card();
-        luckyCard.setValue(7);
-        luckyCard.setSuit("Hearts");
+luckyCard.setValue(7);      // hard-coded number
+luckyCard.setSuit("Hearts");  // hard-coded suit
+
+
+// now search magicHand for luckyCard
+
 
         // Ask user input
         Scanner scanner = new Scanner(System.in);
